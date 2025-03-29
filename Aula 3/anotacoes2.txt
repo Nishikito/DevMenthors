@@ -1,0 +1,34 @@
+CSS AAAAAAAAAAAA
+
+inline == h1 style = "blue"
+color: rgb(72, 129, 179);
+
+colocar control + ; comenta uma frase
+
+seletores servem para identificar o elementos do html
+
+seletor de classe 
+
+da um nome de classe para o elemento específico 
+obs: pode-se usar class e id em um elemento ao mesmo tempo
+exemplo 
+<h1 class="titulos" id="importante">ABC</h1>
+
+la no CSS
+
+.titulos{
+    color: blue;
+}
+#importante{
+    color: yellow;
+}
+
+tudo que se programa em html é praticamente uma caixinha
+
+ctrl + Space == da espaçõ atras do conteudo da linha
+
+
+div serve para encapsular uma gama de conteúdos e assim fica mais faciel de estilizar
+no css existe o no repeat para qu a imagem não se repita quando se há mais espaços (usado em paginas com rolagem)
+
+flexbox == ajuda na organização e alinhamento de itens

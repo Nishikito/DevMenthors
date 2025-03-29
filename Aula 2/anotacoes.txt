@@ -1,0 +1,77 @@
+listas ordenadas e não ordenadas
+ul = lista não ordenada (faz lista com bolinhas, traços etc)
+ol = lista ordenada (usa-se quando a ordem é importante)
+
+Forms e campos
+
+são formas de receber informações do usuário
+
+tipos de input (diferenciar o tipo de dado que será colocado dentro do banco de dados)
+
+text == não há restrições
+email == obriga o usuário colocar @
+password == oculta os caracteres
+radio == bool
+
+tipos de button (qual função o botão irá executar)
+
+enviar(submit)
+apagar(delete)
+
+placeholder == coloca algo dentro da caixa de texto de um formulário(Legenda)
+
+Tabelas == organizar dados em forma de tabela
+
+Exemplo Fernanda (Minha futura esposa ksksksks):
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 2</title>
+</head>
+<body>
+   <h1>Formulário da atividade </h1>
+<form>
+    <ul>
+        <li><label for="nome">Nome</label>
+         <input type="text" placeholder="Digite o nome completo" id="nome" name="nome"></li>
+    <br>
+        <li><label for="Data_nasc">Data de nascimento</label>
+         <input type="date" id="data" date="data"></li><br>
+
+        <li><label for="Genero">Gênero</label>
+          <input type="radio">Feminino
+          <input type="radio">Masculino
+          <input type="radio">Prefiro não informar
+        </li>
+    </ul>
+<hr>
+     <ol>
+         <li> <label for="email">Email</label>
+             <input type="email" placeholder="Digite o seu email" id="email" email="email"></li>
+    <br>
+
+        <li><label for="senha">Senha</label>
+             <input type="password" placeholder="Digite sua senha" id="senha" senha="senha"></li>
+    </ol>
+
+</form>
+
+<button type="submit">Enviar</button>
+
+</body>
+</html>
+
+
+
+boa prática==variavel em ingles
+
+
+
+tr = linha na tabela
+td = agurpar celua principal de informações
+th = cabeçalho da tabela
+
+input type= submit == button type submit

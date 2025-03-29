@@ -1,0 +1,14 @@
+img{
+    width: 17%;
+    border-radius: 25px;
+    border-color: white;
+    border: 5px solid white;
+}
+body{
+    background: linear-gradient(to bottom, black, rgb(35, 0, 58));
+    background: linear-gradient(to top, black);
+}
+h1, h2, h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}

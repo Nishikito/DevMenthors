@@ -1,0 +1,48 @@
+#titulo{/*id == individual*/
+    color: rgb(72, 129, 179);
+}
+.classe_p{/*classe(coletivo) assim só estiliza o elemento html que tem esse nome de classe*/
+    color: rgb(72, 129, 179);
+}
+.turma_h1{
+    color: blue;
+}
+#importante{
+    color: black;
+}
+.caixa{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    background-color: blanchedalmond;
+}
+.wiiw{
+    background-image: url(vil_ismíti.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+body{
+    background-image: url(image.png);/*url serve para localizar a imagem*/
+    background-size: cover;/*serve para cobrir toda a área*/
+}
+.texto{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+.container{
+    display: flex;/*ativa as funções de organizamento*/
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: blueviolet;
+}

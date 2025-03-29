@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 DevMenthors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Lista Não Ordenada</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h3>Lista Ordenada</h3>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+        <form>  <!-- Faz um cadastro -->
+        <label for="nome">Nome: </label> <!-- Serve para dar nome a caixa (input) em que o usuário irá inserir seus dados -->
+        <input type="text" placeholder="Digite seu nome" id="nome" name="Nome"> <!-- type == qual o tipo de dado -->
+
+        <button type="submit">Enviar</button>
+
+        <select name="select" id="">
+            <option value="valor1">São Paulo</option>
+            <option value="valor2">Rio de Janeiro</option>
+            <option value="valor3">Bahia</option>
+        </select>
+    </form>
+        <!-- Tabelas -->
+
+            <h3>Nome    |      Idade     |     Email</h3>
+            <h3>João    |      25        |     joao@gmail.com</h3>
+            <h3>Maria   |      30        |     maria@gmail.com</h3>
+
+    <table border="1" align="center"> <!-- faz o html identificar que é uma tabela/container mãe -->
+        <thead> <!-- Agrupa o cabeçalho da tabela/tag mãe do tr -->
+            <tr> <!-- serve para inserir coisas/linha de delimtação -->
+                <th>Nome</th> <!-- define o cabeçalho da linha -->
+                <th>Idade</th>
+                <th>Email</th>
+            </tr>
+        </thead><!-- Fim do cabeçalho -->
+        <tbody> <!-- agrupa o corpo da tabela -->
+            <tr>
+                <td>João</td> <!-- define o corpo da linha -->
+                <td>25</td>
+                <td>joao@gmail.com</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>joao@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

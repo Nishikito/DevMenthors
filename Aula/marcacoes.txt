@@ -1,0 +1,14 @@
+h1 a h6 são tamanhos de textos
+control d = escrever várias linhas de uma vez
+ahref = levar usuario a algum lugar
+  <!--  <h1>It's meeeee, h1!</h1>
+    <h2>It's meeeee, h2!</h2>
+    <h3>It's meeeee, h3!</h3>
+    <h4>It's meeeee, h4!</h4>
+    <h5>It's meeeee, h5!</h5>
+    <h6>It's meeeee, h6!</h6>
+    <p> (eu sou um parágrafo) 
+        It's me, p!!!!!!!!!!!!!!! <br> I'm useful 
+    </p>-->
+img src == procura o link da imagem
+alt == mostrar o texto alternativo quando não se acha a imagem

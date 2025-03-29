@@ -1,0 +1,26 @@
+h1{
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;/*ativa as funções de organizamento*/
+    justify-content: left;
+    align-items: left;
+    max-width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    border-color: blueviolet;
+    width: 100px;
+}
+#email{
+    height: 25px;
+    width: 200px;
+}
+#password{
+    height: 25px;
+    width: 200px;
+}
