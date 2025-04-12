@@ -72,15 +72,15 @@ input {
   border-radius: 10px;
   background-color: rgb(201, 165, 246);
 }
-body{
-  /* width: 98vw;   altura da tela*/
-  /* height: 100vh; largura da tela*/
-  /*width: 100%;  ocupará 100% da largura do elemento pai*/
+/*body{
+  width: 98vw;   altura da tela
+  height: 100vh; largura da tela
+  width: 100%;  ocupará 100% da largura do elemento pai
 }
 p{
-  /*font-size: 1.5em; 1.5 vezes o tamanho da fonte do elemento pai*/
-  /*font-size: 2rem; 2x o tamanho da fonte pai*/
+  font-size: 1.5em; 1.5 vezes o tamanho da fonte do elemento pai
+  font-size: 2rem; 2x o tamanho da fonte pai
 }
 html{
-  /*font-size: 16px;*/
-}
+  font-size: 16px;
+}*/
