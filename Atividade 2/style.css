@@ -83,4 +83,8 @@ p{
 }
 html{
   font-size: 16px;
-}*/
+}
+.container{
+  display: flex
+}  
+*/
