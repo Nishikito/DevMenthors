@@ -77,3 +77,10 @@ body{
   /* height: 100vh; largura da tela*/
   /*width: 100%;  ocupará 100% da largura do elemento pai*/
 }
+p{
+  /*font-size: 1.5em; 1.5 vezes o tamanho da fonte do elemento pai*/
+  /*font-size: 2rem; 2x o tamanho da fonte pai*/
+}
+html{
+  /*font-size: 16px;*/
+}
